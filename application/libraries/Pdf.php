@@ -13,11 +13,10 @@ class Pdf extends TCPDF {
     public function Header() {
         $logo = dirname('C:\xampp\htdocs\sparesCRM\application\libraries\tcpdf\images').'\elevation2.JPG';
         
-        
-        // Title
         $this->Image($logo,10,6,30);
         // Set font
         $this->SetFont('times', 'B', 20);
+        // Title
         $this->Cell(0, 15, 'Spares Information ', 0, false, 'C', 0, '', 0, false, 'M', 'M');
         $this->Ln(10);
         // Set font
