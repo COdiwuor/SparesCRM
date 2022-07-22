@@ -10,7 +10,7 @@
 	<div class="container">
 	  <div class="row justify-content-md-center">
 	    <div class="col col-lg-12">
-	    	<h3>Spare Table</h3>
+	    	<h3>Report Table</h3>
 	    	<?php echo $this->session->flashdata('msg');?>
 			<a href="http://crm.elevationworld.co.ke/admin/" class="btn btn-primary mb-2">Dashboard </a>&nbsp; 
 	    	<a href="<?php echo site_url('product/add_new');?>" class="btn btn-success mb-2 ">Add New Spare</a><hr/>
